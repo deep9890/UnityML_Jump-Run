@@ -4,6 +4,8 @@ This project is developed using Unity Framework implementing Reinforcement Learn
 
 ## Tools & Packages Version Download
 
+----------------------------------------------
+
 Software												Release Version
 ------------------------------------------------
 Unity ML Agent 									1.0.8
