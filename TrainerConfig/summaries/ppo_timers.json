@@ -1,0 +1,46 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1658067253",
+        "python_version": "3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\dipan\\Seminar\\mlenv\\Scripts\\mlagents-learn C:\\Users\\dipan\\Seminar\\A.I.-Jumping-Cars-ML-Agents-Example-TutorialCompleted\\TrainerConfig\\trainer_config.yaml --force",
+        "mlagents_version": "0.16.1",
+        "mlagents_envs_version": "0.16.1",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.2.0",
+        "end_time_seconds": "1658067280"
+    },
+    "total": 27.731995,
+    "count": 1,
+    "self": 0.18817660000000203,
+    "children": {
+        "run_training.setup": {
+            "total": 0.02090219999999965,
+            "count": 1,
+            "self": 0.02090219999999965
+        },
+        "TrainerController.start_learning": {
+            "total": 27.5229162,
+            "count": 1,
+            "self": 0.0033942000000024564,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 27.5188601,
+                    "count": 1,
+                    "self": 27.5188601
+                },
+                "trainer_threads": {
+                    "total": 3.6999999970532826e-06,
+                    "count": 1,
+                    "self": 3.6999999970532826e-06
+                },
+                "TrainerController._save_model": {
+                    "total": 0.0006582000000001642,
+                    "count": 1,
+                    "self": 0.0006582000000001642
+                }
+            }
+        }
+    }
+}
